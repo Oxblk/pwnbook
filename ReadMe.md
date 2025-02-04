@@ -12,12 +12,11 @@ PwnBook/
 │   ├── Reconnaissance/  
 │   │    ├── Recon
 │   │    ├── 
-│   ├── Lateral Movement&Persistance/ 
-│   ├── Exploitation/
-│   ├── PrivEsc/
-│   ├── Lateral Movement&Persistance/
-│   ├── Post-Exploitation/ 
-│   ├── notes.md            
+│   ├──  
+│   ├── 
+│   ├──  
+│   ├──  
+│   ├── 
 │
 ├── README.md              # Overview of the repo
 ├── LICENSE                # License information

@@ -19,37 +19,6 @@ PwnBook/
 │   ├── Post-Exploitation/ 
 │   ├── notes.md            
 │
-├── Windows/           # Exploiting vulnerabilities
-│   ├── web/               # Web application attacks (SQLi, XSS, etc.)
-│   ├── network/           # Network-based attacks
-│   ├── privilege_escalation/  # Linux & Windows priv esc
-│   ├── notes.md           # Exploitation techniques & payloads
-│
-├── post_exploitation/      # Maintaining access, lateral movement
-│   ├── persistence/       # Backdoors, persistence mechanisms
-│   ├── lateral_movement/  # Moving through the network
-│   ├── credentials/       # Credential harvesting
-│   ├── notes.md           # Post-exploitation strategies
-│
-├── tools/                 # Custom scripts & tools for pentesting
-│   ├── automation/        # Scripts to automate attacks
-│   ├── exploits/          # Custom exploit scripts
-│   ├── wordlists/         # Custom wordlists for brute force attacks
-│
-├── writeups/              # CTFs, hacking challenges, real-world case studies
-│   ├── HTB/               # Hack The Box writeups
-│   ├── THM/               # TryHackMe writeups
-│   ├── real_world/        # Real-world pentesting notes (sanitized)
-│
-├── resources/             # Learning materials, books, papers
-│   ├── books/             # PDFs or links to hacking books
-│   ├── research_papers/   # Academic papers on security
-│   ├── cheat_sheets/      # Quick reference guides
-│
-├── reports/               # Example pentest reports, templates
-│   ├── templates/         # Report templates (e.g., Markdown, LaTeX)
-│   ├── sample_reports/    # Example pentest reports
-│
 ├── README.md              # Overview of the repo
 ├── LICENSE                # License information
 ```

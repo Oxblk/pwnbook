@@ -1,3 +1,5 @@
+# Recon 
+-------------------------------------------------------------------------------------------------
 
 # Passive Network Reconnaissance:
 
@@ -80,14 +82,14 @@
    - Firewall Detection:
     - Wafw00f <IP_address>: (Used to detect firewall)
 
- # Web Application Reconnaissance (If port 80 or 443 are open):**
+ # Web Ports Reconnaissance (If port 80 or 443 are open):**
 
    - Web Server Enumeration:
     - nmap --script http-enum <IP_address> -p 80,443: Enumerate common web directories and files.
     - nmap --script http-robots.txt <IP_address> -p 80,443:  Check for `robots.txt` file to identify disallowed directories (potential targets for attacks).
     - nmap --script http-headers <IP_address> -p 80,443: Gather HTTP headers for version information and other details.
 
- # Directory and File Bruteforcing:
+ # Directory and File Bruteforcing: (If possible)
     - dirb http://<IP_address>`
     - gobuster dir -u http://<IP_address> -w /path/to/wordlist.txt` (Requires `gobuster` to be installed). -w param specifies the dir word list to be checked again
     - ffuf -u http://<IP_address>/FUZZ -w /path/to/wordlist.txt`  (Similar to gobuster but generally faster and more flexible). -u specifies location - FUZZ the injected point
@@ -161,3 +163,6 @@
  - Impact Mitigation: If you discover a critical vulnerability, take steps to mitigate the risk. This may involve contacting the target organization or reporting the vulnerability to the appropriate authorities.
 
 This is an extensive but still not exhaustive list. Keep practicing, experiment with different tools and techniques, and always stay up-to-date with the latest security trends and vulnerabilities. Remember that recon is not just about running tools, but also about *thinking* and connecting the dots between different pieces of information.
+
+
+# Happy Hacking!!!

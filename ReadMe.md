@@ -10,8 +10,8 @@ PwnBook is a personal repository for penetration testing notes, tools, scripts, 
 PwnBook/
 ├── Linux/               
 │   ├── Reconnaissance/  
-│   │    ├── Recon
-│   │    ├── 
+│   │    ├── Recon.md
+│   │    ├── Exploitation.md
 │   ├──  
 │   ├── 
 │   ├──  

@@ -11,7 +11,7 @@ PwnBook/
 ├── Linux/               
 │   ├── Reconnaissance/  
 │   │    ├── Recon.md
-│   │    ├── Exploitation.md
+│   │    ├── Exploitation_Linux.md
 │   ├──  
 │   ├── 
 │   ├──  

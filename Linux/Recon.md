@@ -31,7 +31,7 @@
     - nmap -p- <IP_address>: Scan all 65535 TCP ports (Scan all ports)
     - nmap -F <IP_address>: Fast scan (scans only the most common ports).
     - nmap -v <IP_address>: Verbose output (useful for debugging).
-    - nmap -vv <IP_address>`:  More verbose!
+    - nmap -vv <IP_address>:  More verbose!
     - masscan -p1-65535 <IP_address> --rate=1000: (Fast AF, but might be inaccurate & Requires root. Be very careful with rate limiting to avoid causing network issues)
     - nc -zv <IP_address> <port_range>: Simple connection test (Netcat) to enumerate service availibilty.
 
@@ -79,6 +79,8 @@
     - nmap --script smb-enum-shares <IP_address> -p 139,445
     - nmap --script smb-enum-users <IP_address> -p 139,445
     - smbclient -L \\\\<IP_address>: (Requires valid credentials or anonymous access)
+    - enum4linux 
+    - rpcclient -I "" <IP>
    - Firewall Detection:
     - Wafw00f <IP_address>: (Used to detect firewall)
 

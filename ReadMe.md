@@ -6,22 +6,6 @@ PwnBook is a personal repository for penetration testing notes, tools, scripts, 
 
 ## 📂 Directory Structure
 
-```
-PwnBook/
-├── Linux/               
-│   ├── Reconnaissance/  
-│   │    ├── Recon.md
-│   │    ├── Exploitation_Linux.md
-│   ├──  
-│   ├── 
-│   ├──  
-│   ├──  
-│   ├── 
-│
-├── README.md              # Overview of the repo
-├── LICENSE                # License information
-```
-
 ## 🔍 Purpose
 - Serve as a **personal knowledge base** for penetration testing.
 - Organize **tools, scripts, methodologies, and notes** effectively.

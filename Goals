@@ -4,3 +4,42 @@ As I have mentioned in the ReadMe.md that PwnBook is a personal repository for p
 But my main goal to share this information is to help the beginners with the vast unstructured information that is very overwhelming, I have faced this issue so I thought my work might help someone!
 
 Right now I am learning about specifically Linux, but soon I will also upload content regarding Windows, ICS pentesting, and maybe about web application testing as well! 
+
+
+Goal for this repo! 
+
+PwnBook/ 
+├── Linux/ # Linux-specific pentesting topics 
+│     ├── Recon.md # Linux reconnaissance techniques 
+│     ├── Exploitation.md # Linux exploitation techniques 
+│     ├── PrivEsc.md # Linux privilege escalation methods 
+│     ├── PostExploitation.md # Post-exploitation techniques 
+│
+├── Windows/ # Windows-specific pentesting topics 
+│     ├── Recon.md # Windows reconnaissance techniques 
+│     ├── Exploitation.md # Windows exploitation techniques 
+│     ├── PrivEsc.md # Windows privilege escalation methods 
+│     ├── PostExploitation.md # Post-exploitation techniques 
+│ 
+├── Web/ # Web application security 
+│     ├── Recon.md # Web reconnaissance techniques 
+│     ├── Exploitation.md # Web vulnerability exploitation 
+│     ├── PostExploitation.md # Maintaining access & further attacks 
+│ 
+├── Networking/ # Network security & attacks 
+│     ├── Recon.md # Network reconnaissance techniques 
+│     ├── Exploitation.md # Network-based exploits 
+│     ├── PostExploitation.md # Pivoting, lateral movement, etc. 
+│ 
+├── Tools/ # List of tools, usage guides, and cheatsheets 
+│     ├── Linux_Tools.md # Linux-specific tools 
+│     ├── Windows_Tools.md # Windows-specific tools 
+│     ├── Web_Tools.md # Web pentesting tools 
+│     ├── Network_Tools.md # Networking tools 
+│     ├── Notes/ # General notes and references 
+│     ├── Commands.md # Useful command references 
+│     ├── CheatSheets.md # Quick references for exploits & techniques 
+│     ├── Misc.md # Other useful notes 
+│    
+├── Goals.md # Learning objectives and milestones 
+├── ReadMe.md # Project overview and details

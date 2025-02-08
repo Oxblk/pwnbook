@@ -7,8 +7,8 @@ PwnBook is a personal repository for penetration testing notes, tools, scripts, 
 ## 📂 Directory Structure
  
  PwnBook/
-  |
-  |--Linux/
+  |\n
+  |--Linux/\n
   |   |
   |   |--Recon.md
   |   |--Exploitaton_Linux.md
